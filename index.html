@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!--
+    Modelo 03 – Portfólio Criativo (Design · Ilustração · Web)
+    Autor: Vivian de Moura Machinievski
+    Descrição: Portfólio para profissional criativa (designer, ilustradora, tatuadora, etc.).
+    Usa tema próprio via body.page-portfolio, reaproveitando o CSS global.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marina K. Studio | Design & Ilustração</title>
+
+  <meta name="description" content="Portfólio de design, ilustração e interfaces digitais. Projetos autorais e comerciais com foco em estética, clareza e impacto visual.">
+  <meta name="author" content="Vivian de Moura Machinievski">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="page-portfolio">
+  <!-- =========================
+       HEADER & NAVEGAÇÃO
+  ========================== -->
+  <header class="site-header">
+    <div class="container header__content">
+      <div class="logo">
+        <span class="logo__mark">MK</span>
+        <div class="logo__text">
+          <span class="logo__title">Marina K. Studio</span>
+          <span class="logo__subtitle">Design · Ilustração · Web</span>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <button class="nav-toggle" aria-label="Alternar menu de navegação">
+          <span class="nav-toggle__line"></span>
+          <span class="nav-toggle__line"></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="#portfolio">Projetos</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#processo">Processo</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato" class="btn btn--primary btn--small">Vamos criar?</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO
+  ========================== -->
+  <main>
+    <section class="hero hero--portfolio">
+      <div class="container hero__grid hero__grid--portfolio">
+        <div class="hero__text">
+          <p class="eyebrow">Portfólio criativo</p>
+          <h1>Visuals que conectam estética, narrativa e resultado.</h1>
+          <p class="hero__subtitle">
+            Identidades visuais, ilustrações e interfaces pensadas para marcas que
+            querem se posicionar com personalidade, consistência e presença digital forte.
+          </p>
+
+          <div class="hero__actions hero__actions--stack">
+            <a href="#portfolio" class="btn btn--primary btn--full-mobile">
+              Ver projetos em destaque
+            </a>
+            <a href="#contato" class="btn btn--ghost btn--full-mobile">
+              Pedir orçamento para um projeto
+            </a>
+          </div>
+
+          <div class="portfolio-meta">
+            <div class="portfolio-meta__item">
+              <span class="portfolio-meta__label">+5 anos</span>
+              <span class="portfolio-meta__text">com design & ilustração</span>
+            </div>
+            <div class="portfolio-meta__item">
+              <span class="portfolio-meta__label">+60 projetos</span>
+              <span class="portfolio-meta__text">entre marcas, produtos e web</span>
+            </div>
+            <div class="portfolio-meta__item">
+              <span class="portfolio-meta__label">Brasil & exterior</span>
+              <span class="portfolio-meta__text">atendimento 100% online</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card hero__card--portfolio">
+          <div class="hero-profile hero-profile--portfolio">
+            <div class="hero-profile__avatar hero-profile__avatar--portfolio" aria-hidden="true"></div>
+            <div class="hero-profile__info">
+              <h2>Marina K.</h2>
+              <p>Designer & Ilustradora · Studio independente</p>
+              <p class="hero-profile__location">Base em São José dos Campos/SP · Projetos remotos</p>
+            </div>
+          </div>
+
+          <div class="hero-card__body hero-card__body--compact">
+            <h3>Foco de atuação</h3>
+            <ul class="tag-list">
+              <li class="tag">Identidade visual</li>
+              <li class="tag">Capa e layout digital</li>
+              <li class="tag">Interface para web</li>
+              <li class="tag">Ilustrações autorais</li>
+            </ul>
+            <p class="hero-card__note">
+              Cada projeto é construído em diálogo com a pessoa ou marca, respeitando contexto,
+              referências e objetivos reais – sem fórmulas engessadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PORTFÓLIO / PROJETOS
+    ========================== -->
+    <section id="portfolio" class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Projetos em destaque</h2>
+          <p>Uma seleção de trabalhos autorais e comerciais em design, ilustração e web.</p>
+        </div>
+
+        <div class="portfolio-filters">
+          <span class="portfolio-filters__label">Filtrar por:</span>
+          <div class="filter-chips">
+            <button class="filter-chip filter-chip--active" type="button">Todos</button>
+            <button class="filter-chip" type="button">Identidade visual</button>
+            <button class="filter-chip" type="button">Ilustração</button>
+            <button class="filter-chip" type="button">Web / UI</button>
+          </div>
+        </div>
+
+        <div class="portfolio-grid">
+          <!-- Projeto 1 -->
+          <article class="case-card">
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder">Mock de identidade visual</div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__tag">Identidade visual</span>
+                <span class="case-card__year">2024</span>
+              </div>
+              <h3 class="case-card__title">Cafeteria Aurora</h3>
+              <p class="case-card__desc">
+                Construção de identidade completa para uma cafeteria de bairro com foco
+                em conforto, afeto e rituais cotidianos.
+              </p>
+              <p class="case-card__roles">
+                Papel no projeto: naming, logo, paleta, tipografia, peças digitais.
+              </p>
+            </div>
+          </article>
+
+          <!-- Projeto 2 -->
+          <article class="case-card">
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder">Capa e ilustração digital</div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__tag">Ilustração</span>
+                <span class="case-card__year">2023</span>
+              </div>
+              <h3 class="case-card__title">Série “Universos Internos”</h3>
+              <p class="case-card__desc">
+                Coleção de ilustrações explorando paisagens emocionais em composição
+                com elementos cósmicos e detalhes orgânicos.
+              </p>
+              <p class="case-card__roles">
+                Papel no projeto: conceito, composição, pintura digital e finalização.
+              </p>
+            </div>
+          </article>
+
+          <!-- Projeto 3 -->
+          <article class="case-card">
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder">Layout de site responsivo</div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__tag">Web / UI</span>
+                <span class="case-card__year">2024</span>
+              </div>
+              <h3 class="case-card__title">Website para Estúdio Criativo</h3>
+              <p class="case-card__desc">
+                Criação de layout responsivo para estúdio de conteúdo, com foco em
+                clareza, navegação fluida e destaque de portfólio.
+              </p>
+              <p class="case-card__roles">
+                Papel no projeto: estrutura de páginas, UI, componentes e guia básico de uso.
+              </p>
+            </div>
+          </article>
+
+          <!-- Projeto 4 -->
+          <article class="case-card">
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder">Ilustração aplicada em produto</div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__tag">Produto & Print</span>
+                <span class="case-card__year">2022</span>
+              </div>
+              <h3 class="case-card__title">Coleção de Prints “Marés”</h3>
+              <p class="case-card__desc">
+                Série de pôsteres impressos explorando movimento, texturas aquosas e
+                paletas de azul, verde e dourado.
+              </p>
+              <p class="case-card__roles">
+                Papel no projeto: ilustração, preparação de arquivo para impressão.
+              </p>
+            </div>
+          </article>
+
+          <!-- Projeto 5 -->
+          <article class="case-card">
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder">Grid de posts para redes</div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__tag">Social · Visual</span>
+                <span class="case-card__year">2023</span>
+              </div>
+              <h3 class="case-card__title">Visual para marca de bem-estar</h3>
+              <p class="case-card__desc">
+                Desenvolvimento de linha visual para redes sociais com foco em leveza,
+                legibilidade e consistência entre posts.
+              </p>
+              <p class="case-card__roles">
+                Papel no projeto: criação de templates, direção de imagem e tipografia.
+              </p>
+            </div>
+          </article>
+
+          <!-- Projeto 6 -->
+          <article class="case-card">
+            <div class="case-card__thumb">
+              <div class="case-card__placeholder">Layout de página única</div>
+            </div>
+            <div class="case-card__body">
+              <div class="case-card__meta">
+                <span class="case-card__tag">Web / One Page</span>
+                <span class="case-card__year">2024</span>
+              </div>
+              <h3 class="case-card__title">One Page para profissional autônoma</h3>
+              <p class="case-card__desc">
+                Página única para posicionamento profissional com storytelling,
+                depoimentos e chamada clara para contato.
+              </p>
+              <p class="case-card__roles">
+                Papel no projeto: estrutura, UI e microcopy.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         SERVIÇOS
+    ========================== -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <div class="section__header">
+          <h2>Formas de trabalhar comigo</h2>
+          <p>Serviços pensados para adaptar o visual da sua marca ao momento atual.</p>
+        </div>
+
+        <div class="cards-grid cards-grid--services">
+          <article class="card">
+            <h3>Identidade visual completa</h3>
+            <p>
+              Para marcas que precisam de uma base sólida: logo, paleta, tipografia,
+              aplicações básicas e guia de uso para manter consistência.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Pacotes de ilustração</h3>
+            <p>
+              Ilustrações autorais para capas, redes sociais, impressos ou produtos,
+              com foco em estilo próprio e alinhado ao seu universo.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Layouts para web & social</h3>
+            <p>
+              Criação de interfaces, páginas e peças digitais que traduzem a identidade
+              da sua marca em experiências visuais claras e navegáveis.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Projetos sob medida</h3>
+            <p>
+              Tem uma ideia específica? Podemos construir um projeto customizado,
+              combinando diferentes formatos conforme sua necessidade.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PROCESSO
+    ========================== -->
+    <section id="processo" class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <h2>Como os projetos acontecem</h2>
+          <p>Transparência em cada etapa, do primeiro contato à entrega final.</p>
+        </div>
+
+        <ol class="pf-steps">
+          <li class="pf-step">
+            <span class="pf-step__number">1</span>
+            <div class="pf-step__content">
+              <h3>Briefing e alinhamento</h3>
+              <p>
+                Conversa inicial para entender contexto, objetivos, referências
+                e prazos. É aqui que ajustamos expectativas e escopo.
+              </p>
+            </div>
+          </li>
+
+          <li class="pf-step">
+            <span class="pf-step__number">2</span>
+            <div class="pf-step__content">
+              <h3>Pesquisa e direção visual</h3>
+              <p>
+                Mapeamento de referências, definição de caminhos visuais e envio
+                de uma proposta de direção para alinharmos juntos.
+              </p>
+            </div>
+          </li>
+
+          <li class="pf-step">
+            <span class="pf-step__number">3</span>
+            <div class="pf-step__content">
+              <h3>Criação e refinamento</h3>
+              <p>
+                Desenvolvimento das peças, apresentação, ajustes finos e
+                adaptações necessárias até chegar no resultado ideal.
+              </p>
+            </div>
+          </li>
+
+          <li class="pf-step">
+            <span class="pf-step__number">4</span>
+            <div class="pf-step__content">
+              <h3>Entrega organizada</h3>
+              <p>
+                Entrega de arquivos em formatos adequados ao uso (impressão,
+                digital, web), com organização clara de pastas e nomes.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- =========================
+         SOBRE
+    ========================== -->
+    <section id="sobre" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>Sobre o studio</h2>
+          <p>
+            O Studio funciona como um laboratório visual: cada projeto é uma
+            combinação de pesquisa, experimentação estética e intenção clara.
+          </p>
+          <p>
+            A ideia é aproximar a linguagem da marca da vida real das pessoas,
+            criando materiais que sejam bonitos de ver, fáceis de entender
+            e gostosos de usar no dia a dia.
+          </p>
+        </div>
+        <div class="highlight-box">
+          <h3>Alguns pilares de trabalho</h3>
+          <ul class="icon-list">
+            <li>
+              <span class="icon-list__icon" aria-hidden="true">🎨</span>
+              Estética alinhada à personalidade da marca
+            </li>
+            <li>
+              <span class="icon-list__icon" aria-hidden="true">🧩</span>
+              Clareza de propósito em cada peça criada
+            </li>
+            <li>
+              <span class="icon-list__icon" aria-hidden="true">🤝</span>
+              Processo colaborativo e comunicação aberta
+            </li>
+            <li>
+              <span class="icon-list__icon" aria-hidden="true">📁</span>
+              Entrega organizada e pronta para uso imediato
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTATO
+    ========================== -->
+    <section id="contato" class="section section--accent">
+      <div class="container contact-grid">
+        <div>
+          <h2>Tem um projeto em mente?</h2>
+          <p>
+            Me conta um pouco da sua ideia, do estágio em que você está e do que
+            espera com esse projeto. A partir disso, te retorno com uma proposta
+            alinhada à sua realidade.
+          </p>
+          <ul class="contact-list">
+            <li><strong>E-mail:</strong> contato@marinakstudio.com</li>
+            <li><strong>Instagram:</strong> @marinak.studio</li>
+            <li><strong>Atendimento:</strong> 100% online, horário comercial.</li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required placeholder="Como você prefere ser chamada(o)?">
+          </div>
+
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+          </div>
+
+          <div class="form-row">
+            <label for="tipo-projeto">Tipo de projeto</label>
+            <select id="tipo-projeto" name="tipo-projeto" required>
+              <option value="">Selecione...</option>
+              <option value="identidade">Identidade visual</option>
+              <option value="ilustracao">Ilustração</option>
+              <option value="web">Layout para web</option>
+              <option value="outro">Outro / misto</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="mensagem">Resumo da sua ideia</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Conte um pouco sobre você, sua marca e o que está buscando."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">
+            Enviar mensagem
+          </button>
+
+          <p class="contact-form__disclaimer">
+            As mensagens são respondidas em até 2 dias úteis. Seus dados serão
+            usados apenas para conversas sobre o projeto.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="site-footer">
+    <div class="container footer__content">
+      <p>© <span id="year"></span> Marina K. Studio · Design & Ilustração</p>
+      <p class="footer__secondary">
+        Portfólio modelo desenvolvido para demonstração de estrutura e layout.
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
